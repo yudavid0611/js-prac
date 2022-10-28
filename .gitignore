@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by https://www.toptal.com/developers/gitignore/api/windows,macos,venv,python,visualstudiocode,pycharm,django
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,venv,python,visualstudiocode,pycharm,django
 
@@ -170,36 +171,66 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+=======
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+>>>>>>> 13e695bd279c5785e8073a6a871264152c6608d7
 
-### macOS ###
-# General
-.DS_Store
-.AppleDouble
-.LSOverride
+# C extensions
+*.so
 
-# Icon must end with two \r
-Icon
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
 
-# Thumbnails
-._*
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Translations
+*.mo
+*.pot
 
+<<<<<<< HEAD
 ### macOS Patch ###
 # iCloud generated files
 *.icloud
@@ -214,6 +245,88 @@ Temporary Items
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+=======
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+>>>>>>> 13e695bd279c5785e8073a6a871264152c6608d7
 
 # AWS User-specific
 .idea/**/aws.xml
@@ -221,6 +334,7 @@ Temporary Items
 # Generated files
 .idea/**/contentModel.xml
 
+<<<<<<< HEAD
 # Sensitive or high-churn files
 .idea/**/dataSources/
 .idea/**/dataSources.ids
@@ -229,11 +343,16 @@ Temporary Items
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
+=======
+# Coverage directory used by tools like istanbul
+coverage
+>>>>>>> 13e695bd279c5785e8073a6a871264152c6608d7
 
 # Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
 
+<<<<<<< HEAD
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
 # since they will be recreated, and may cause churn.  Uncomment if using
@@ -246,6 +365,10 @@ Temporary Items
 # .idea/modules
 # *.iml
 # *.ipr
+=======
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+>>>>>>> 13e695bd279c5785e8073a6a871264152c6608d7
 
 # CMake
 cmake-build-*/
@@ -253,12 +376,44 @@ cmake-build-*/
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
 
+<<<<<<< HEAD
 # File-based project format
 *.iws
+=======
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+.sass-cache
+connect.lock
+typings
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+>>>>>>> 13e695bd279c5785e8073a6a871264152c6608d7
 
 # IntelliJ
 out/
 
+<<<<<<< HEAD
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
@@ -267,10 +422,15 @@ atlassian-ide-plugin.xml
 
 # Cursive Clojure plugin
 .idea/replstate.xml
+=======
+# Optional npm cache directory
+.npm
+>>>>>>> 13e695bd279c5785e8073a6a871264152c6608d7
 
 # SonarLint plugin
 .idea/sonarlint/
 
+<<<<<<< HEAD
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
 crashlytics.properties
@@ -282,6 +442,10 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
+=======
+# Optional REPL history
+.node_repl_history
+>>>>>>> 13e695bd279c5785e8073a6a871264152c6608d7
 
 ### PyCharm Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
@@ -291,6 +455,7 @@ fabric.properties
 # .idea/misc.xml
 # *.ipr
 
+<<<<<<< HEAD
 # Sonarlint plugin
 # https://plugins.jetbrains.com/plugin/7973-sonarlint
 .idea/**/sonarlint/
@@ -463,3 +628,17 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,venv,python,visualstudiocode,pycharm,django
+=======
+# dotenv environment variables file
+.env
+
+# next.js build output
+.next
+
+# Lerna
+lerna-debug.log
+
+# System Files
+.DS_Store
+Thumbs.db
+>>>>>>> 13e695bd279c5785e8073a6a871264152c6608d7
